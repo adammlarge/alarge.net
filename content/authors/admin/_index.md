@@ -65,8 +65,64 @@ highlight_name: false
 #   Remove this if you are not using the People widget.
 #user_groups:
 #- Principal Investigators
+
+# Skills
+# For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
+skills:
+  - name: Technical
+    items:
+    - name: Python
+      description: ''
+      percent: 70
+      icon: python
+      icon_pack: fab
+    - name: Data Science
+      description: ''
+      percent: 70
+      icon: chart-line
+      icon_pack: fas
+    - name: SQL
+      description: ''
+      percent: 40
+      icon: database
+      icon_pack: fas
+  - name: Hobbies
+    color: '#eeac02'
+    color_border: '#f0bf23'
+    items:
+      - name: Crocheting
+        description: ''
+        percent: 60
+        icon: :yarn:
+      - name: Board Games
+        description: ''
+        percent: 80
+        icon: chess-board
+        icon_pack: fas
+      - name: Scavenger Hunts
+        description: ''
+        percent: 80
+        icon: magnifying-glass
+        icon_pack: fas
+
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: 'mailto:adam.m.large@gmail.com'
+    display:
+      header: true
+  # - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
+  #   icon_pack: fas
+  #   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/adammlarge
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/adam-large
+  - icon: cv
+    icon_pack: ai
+    link: uploads/resume.pdf
 ---
 
 Adam Large is a once-neuroscientist currently pursuing data science and data engineering positions with an emphasis on his interest in the health industries, human behavior, and language processing. He has over ten years of robust experience in data science, advanced technical skills, and contributed to various research projects, ranging from molecular biology to psychology. Adam is also extremely interested in broadening the public's understanding of science.
-
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "files/cv.pdf" "newtab" >}}Academic CV{{< /staticref >}} or {{< staticref "files/Resume_LargeAdamM.pdf" "newtab" >}}resume{{< /staticref >}}.
