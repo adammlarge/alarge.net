@@ -108,7 +108,7 @@ skills:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:adam.m.large@gmail.com'
+    link: '#adam.m.large@gmail.com'
     display:
       header: true
   # - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
