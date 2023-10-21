@@ -2,6 +2,10 @@
 # Display name
 title: Adam M. Large
 
+# Full name (for SEO)
+first_name: Adam
+last_name: Large
+
 # Is this the primary user of the site?
 superuser: true
 
