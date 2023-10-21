@@ -94,6 +94,7 @@ skills:
         description: ''
         percent: 60
         icon: :yarn:
+        icon_pack: emoji
       - name: Board Games
         description: ''
         percent: 80
@@ -108,7 +109,7 @@ skills:
 social:
   - icon: envelope
     icon_pack: fas
-    link: '#adam.m.large@gmail.com'
+    link: 'mailto:adam.m.large@gmail.com'
     display:
       header: true
   # - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
