@@ -93,7 +93,7 @@ skills:
       - name: Crocheting
         description: ''
         percent: 60
-        icon: :yarn:
+        icon: 🧶
         icon_pack: emoji
       - name: Board Games
         description: ''
