@@ -65,7 +65,7 @@ sections:
         - title: Clinical Research Data Specialist
           company: Cedars-Sinai Medical Center
           company_url: 'https://www.cedars-sinai.org/'
-          company_logo: org-cshs
+          company_logo: org-cshs.png
           location: Los Angeles, California
           date_start: '2021-10-01'
           date_end: ''
