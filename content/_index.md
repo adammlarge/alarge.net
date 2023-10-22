@@ -99,7 +99,7 @@ sections:
 
               * Provided data science consulting through freelancing platforms. Services include data collection, customer profiling through shopify data, and SQL management
         - title: Postdoctoral Associate
-          company: University of Madison - Wisconsin
+          company: University of Madison, Wisconsin
           company_logo: org-uwm
           location: Madison, WI
           date_start: '2017-07-01'
@@ -159,33 +159,33 @@ sections:
           title: Fellowship Completion
     design:
       columns: '2'
-  - block: collection
-    id: posts
-    content:
-      title: Recent Posts
-      subtitle: ''
-      text: ''
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
-      filters:
-        folders:
-          - post
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
-      # Choose a layout view
-      view: compact
-      columns: '2'
+  # - block: collection
+  #   id: posts
+  #   content:
+  #     title: Recent Posts
+  #     subtitle: ''
+  #     text: ''
+  #     # Choose how many pages you would like to display (0 = all pages)
+  #     count: 5
+  #     # Filter on criteria
+  #     filters:
+  #       folders:
+  #         - post
+  #       author: ""
+  #       category: ""
+  #       tag: ""
+  #       exclude_featured: false
+  #       exclude_future: false
+  #       exclude_past: false
+  #       publication_type: ""
+  #     # Choose how many pages you would like to offset by
+  #     offset: 0
+  #     # Page order: descending (desc) or ascending (asc) date.
+  #     order: desc
+  #   design:
+  #     # Choose a layout view
+  #     view: compact
+  #     columns: '2'
   - block: portfolio
     id: projects
     content:
@@ -205,8 +205,8 @@ sections:
           tag: '*'
         - name: Data Science
           tag: Data Science
-        - name: Other
-          tag: Demo
+        - name: Board Games
+          tag: Board Games
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
