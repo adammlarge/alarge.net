@@ -112,7 +112,7 @@ sections:
             * Analyzed cognitive and pesonality data of League of Legends players across skill levels
         - title: Graduate Student
           company: University of Pittsburgh
-          company_url: "https://www.pitt.edu/"
+          company_url: 'https://www.pitt.edu/'
           location: Pittsburgh, PA
           date_start: '2011-08-25'
           date_end: '2017-04-25'
