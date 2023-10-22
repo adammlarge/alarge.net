@@ -62,27 +62,66 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
+        - title: Clinical Research Data Specialist
+          company: Cedars-Sinai Medical Center
+          company_url: 'https://www.cedars-sinai.org/'
+          company_logo: org-cshs
+          location: Los Angeles, California
+          date_start: '2021-10-01'
           date_end: ''
           description: |2-
               Responsibilities include:
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
+              * Supporting research efforts through querying of data from multiple sources
+              * Provided recommendations for codebase changes to improve efficiency and code quality
+        - title: Data Scientist III
+          company: Sapient
+          company_url: 'https://sapient.bio/'
+          company_logo: org-sapient
+          location: San Diego, California
+          date_start: '2021-06-15'
+          date_end: ''
+          description: |2-
+              Responsibilities include:
+
+              * Statistical analysis of metabolomics data to discover biomarkers associated with clinical phenotypes
+              * Developing a toolkit codebase for the department
+              * Devising a company common data model based on the Observational Medical Outcomes Partnership (OMOP) Common Data Model\
+              * Maintaining a template project for projects via cookiecutter
+        - title: Freelance Data science
+          company: Freelance
           company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          location: Los Angeles, California
+          date_start: '2020-12-01'
+          date_end: '2021-06-15'
+          description: |2-
+              Responsibilities include:
+
+              * Provided data science consulting through freelancing platforms. Services include data collection, customer profiling through shopify data, and SQL management
+        - title: Postdoctoral Associate
+          company: University of Madison - Wisconsin
+          company_logo: org-uwm
+          location: Madison, WI
+          date_start: '2017-07-01'
+          date_end: ''
+          description: |2-
+            Projects included:
+  
+            * Organized multi-day studies to measure neural changes due to video game play
+            * Devised manipulations of in-house and commercial video games to identify relevant feaures that affect cognition 
+            * Analyzed cognitive and pesonality data of League of Legends players across skill levels
+        - title: Graduate Student
+          company: University of Pittsburgh
+          company_url: "https://www.pitt.edu/"
+          location: Pittsburgh, PA
+          date_start: '2011-08-25'
+          date_end: '2017-04-25'
+          description : |2-
+            Responsibilities included:
+          
+          * Indentify neural subtypes in mouse olfactory cortex using ex vivo electrophysiology
+          * Manage several transgenic mouse lines, including optogenetic and chemogenetic lines
+          * Train undergraduates in electrophysiology and data analysis
     design:
       columns: '2'
   - block: accomplishments
@@ -98,30 +137,12 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://www.coursera.org
-          date_end: ''
-          date_start: '2021-01-25'
-          description: ''
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
-          url: ''
-        - certificate_url: https://www.edx.org
-          date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
-          description: ''
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
-          url: ''
+        - certificate_url: https://www.credly.com/badges/9ba20323-72c2-41ea-8f59-76b6ee7074c5
+          date_start: '2020-09-14'
+          description: 'The earner of this badge has successfully completed all miniprojects and a capstone project with a score of >90%. They are able to design and implement a data science project from end to end. They have gathered, cleaned, and analyzed real-world data. They have used statistical tests and machine learning algorithms to derive actionable insights from that data. They have assembled this work into a form suitable for non-experts, allowing users to solve real-world problems.'
+          organization: The Data Incubator
+          organization_url: https://www.thedataincubator.com/
+          title: Fellowship Completion
     design:
       columns: '2'
   - block: collection
@@ -168,8 +189,8 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Deep Learning
-          tag: Deep Learning
+        - name: Data Science
+          tag: Data Science
         - name: Other
           tag: Demo
     design:
@@ -178,14 +199,14 @@ sections:
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
-  - block: markdown
-    content:
-      title: Gallery
-      subtitle: ''
-      text: |-
-        {{< gallery album="demo" >}}
-    design:
-      columns: '1'
+  # - block: markdown
+  #   content:
+  #     title: Gallery
+  #     subtitle: ''
+  #     text: |-
+  #       {{< gallery album="demo" >}}
+  #   design:
+  #     columns: '1'
   - block: collection
     id: featured
     content:
@@ -199,7 +220,7 @@ sections:
       view: card
   - block: collection
     content:
-      title: Recent Publications
+      title: Publications
       text: |-
         {{% callout note %}}
         Quickly discover relevant content by [filtering publications](./publication/).
@@ -211,16 +232,16 @@ sections:
     design:
       columns: '2'
       view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      columns: '2'
-      view: compact
+  # - block: collection
+  #   id: talks
+  #   content:
+  #     title: Recent & Upcoming Talks
+  #     filters:
+  #       folders:
+  #         - event
+    # design:
+    #   columns: '2'
+    #   view: compact
   - block: tag_cloud
     content:
       title: Popular Topics
@@ -232,35 +253,9 @@ sections:
       title: Contact
       subtitle:
       text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
+        Let me know if you want to connect!
       # Contact (add or remove contact options as necessary)
-      email: test@example.org
-      phone: 888 888 88 88
-      appointment_url: 'https://calendly.com'
-      address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
-        country: United States
-        country_code: US
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-      office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
-      contact_links:
-        - icon: twitter
-          icon_pack: fab
-          name: DM Me
-          link: 'https://twitter.com/Twitter'
-        - icon: skype
-          icon_pack: fab
-          name: Skype Me
-          link: 'skype:echo123?call'
-        - icon: video
-          icon_pack: fas
-          name: Zoom Me
-          link: 'https://zoom.com'
+      email: adam.m.large@gmail.com
       # Automatically link email and phone or display as text?
       autolink: true
       # Email form provider
