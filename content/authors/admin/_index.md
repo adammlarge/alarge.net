@@ -52,7 +52,7 @@ Social:
 Resume:
 - icon: cv
   icon_pack: ai
-  link: 'static/uploads/resume.pdf'
+  link: 'static/uploads/LargeAdam_resume.pdf'
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -123,7 +123,7 @@ social:
     link: https://www.linkedin.com/in/adam-large
   - icon: cv
     icon_pack: ai
-    link: uploads/resume.pdf
+    link: uploads/LargeAdam_resume.pdf
 ---
 
 Adam Large is a once-neuroscientist currently pursuing data science and data engineering positions with an emphasis on his interest in the health industries, human behavior, and language processing. He has over ten years of robust experience in data science, advanced technical skills, and contributed to various research projects, ranging from molecular biology to psychology. Adam is also extremely interested in broadening the public's understanding of science.
