@@ -22,9 +22,9 @@ bio: I have over ten years of robust experience in data science, advanced techni
 
 # Interests to show in About widget
 Interests:
-- Sensation and Perception
-- Learning and Plasticity
+- Learning (in both human and machines)
 - Language Processing
+- Data Modeling
 
 # Education to show in About widget
 Education:
