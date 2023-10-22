@@ -65,7 +65,7 @@ sections:
         - title: Clinical Research Data Specialist
           company: Cedars-Sinai Medical Center
           company_url: 'https://www.cedars-sinai.org/'
-          company_logo: org-cshs.png
+          # company_logo: org-cshs
           location: Los Angeles, California
           date_start: '2021-10-01'
           date_end: ''
@@ -77,7 +77,7 @@ sections:
         - title: Data Scientist III
           company: Sapient
           company_url: 'https://sapient.bio/'
-          company_logo: org-sapient
+          # company_logo: org-sapient
           location: San Diego, California
           date_start: '2021-06-15'
           date_end: ''
@@ -100,7 +100,7 @@ sections:
               * Provided data science consulting through freelancing platforms. Services include data collection, customer profiling through shopify data, and SQL management
         - title: Postdoctoral Associate
           company: University of Madison, Wisconsin
-          company_logo: org-uwm
+          # company_logo: org-uwm
           location: Madison, WI
           date_start: '2017-07-01'
           date_end: '2019-06-30'
@@ -113,6 +113,7 @@ sections:
         - title: Graduate Student
           company: University of Pittsburgh
           company_url: 'https://www.pitt.edu/'
+          # company_logo: org-upitt
           location: Pittsburgh, PA
           date_start: '2011-08-25'
           date_end: '2017-04-25'
