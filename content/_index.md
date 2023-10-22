@@ -116,7 +116,7 @@ sections:
           location: Pittsburgh, PA
           date_start: '2011-08-25'
           date_end: '2017-04-25'
-          description : |2-
+          description: |2-
             Responsibilities included:
           
           * Indentify neural subtypes in mouse olfactory cortex using ex vivo electrophysiology
@@ -127,7 +127,7 @@ sections:
   - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Accomplish&shy;ments'
+      title: 'Accomplishments'
       subtitle:
       # Date format: https://wowchemy.com/docs/customization/#date-format
       date_format: Jan 2006
@@ -137,6 +137,20 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - certificate_url: https://www.credential.net/0179cb46-58f9-4994-8047-b282cd04df56
+          date_start: '2023-05-16'
+          description: 'The Prefect Associate Certification (PAC) includes 2 days of in-person instruction and lab work. By the end of the 2 days, attendees have learned how to deploy Prefect, create tasks & flows, deploy infrastructure and make full use of Prefect.'
+          organization: Prefect
+          organization_url: https://www.prefect.io
+          title: Prefect Associate Certification
+
+        - certificate_url: https://credentials.getdbt.com/f88a35d1-7367-4508-8006-b76b42c701ef
+          date_start: '2022-12-23'
+          description: 'This badge is issued to any dbt developer who has completed the online dbt Fundamentals v2 course and passed the end of course quiz. This demonstrates fundamental understanding of models, sources, tests, docs, and deployment in dbt.'
+          organization: dbt
+          organization_url: https://www.getdbt.com
+          title: dbt Fundamentals
+
         - certificate_url: https://www.credly.com/badges/9ba20323-72c2-41ea-8f59-76b6ee7074c5
           date_start: '2020-09-14'
           description: 'The earner of this badge has successfully completed all miniprojects and a capstone project with a score of >90%. They are able to design and implement a data science project from end to end. They have gathered, cleaned, and analyzed real-world data. They have used statistical tests and machine learning algorithms to derive actionable insights from that data. They have assembled this work into a form suitable for non-experts, allowing users to solve real-world problems.'
