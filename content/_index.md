@@ -103,7 +103,7 @@ sections:
           company_logo: org-uwm
           location: Madison, WI
           date_start: '2017-07-01'
-          date_end: ''
+          date_end: '2019-06-30'
           description: |2-
             Projects included:
   
@@ -118,10 +118,10 @@ sections:
           date_end: '2017-04-25'
           description: |2-
             Responsibilities included:
-          
-          * Indentify neural subtypes in mouse olfactory cortex using ex vivo electrophysiology
-          * Manage several transgenic mouse lines, including optogenetic and chemogenetic lines
-          * Train undergraduates in electrophysiology and data analysis
+            
+            * Indentify neural subtypes in mouse olfactory cortex using ex vivo electrophysiology
+            * Manage several transgenic mouse lines, including optogenetic and chemogenetic lines
+            * Train undergraduates in electrophysiology and data analysis
     design:
       columns: '2'
   - block: accomplishments
